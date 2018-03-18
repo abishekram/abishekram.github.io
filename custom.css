@@ -1,0 +1,31 @@
+#my-info {
+    background: #68C3A3;
+    /* fallback for old browsers */
+    height: 100%;
+}
+
+#developer_name h5 {
+    font-family: 'Alegreya SC', serif;
+    color: white;
+    margin-left: 12px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.developer_img {
+    width: 200px;
+    border-radius: 50%;
+    height: 185px;
+    margin-left: 10px;
+}
+#particles-js{
+  height: 385px;
+  background: #0f0b0b;
+}
+
+.developer_anim{
+color:white;
+font-size:33px;
+
+}
