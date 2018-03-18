@@ -1,31 +1,51 @@
 #my-info {
-    background: #68C3A3;
-    /* fallback for old browsers */
-    height: 100%;
+  background: #FABE58;
+  /* fallback for old browsers */
+  height: 100%;
 }
 
 #developer_name h5 {
-    font-family: 'Alegreya SC', serif;
-    color: white;
-    margin-left: 12px;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-weight: 700;
+  font-family: 'Alegreya SC', serif;
+  color: white;
+  margin-left: 12px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+span.developer_role {
+  margin-top: 14% !important;
+  font-weight: 100;
+  margin-left: 33% !important;
 }
 
 .developer_img {
-    width: 200px;
-    border-radius: 50%;
-    height: 185px;
-    margin-left: 10px;
-}
-#particles-js{
-  height: 385px;
-  background: #0f0b0b;
+  width: 200px;
+  border-radius: 50%;
+  height: 185px;
+  margin-left: 10px;
 }
 
-.developer_anim{
-color:white;
-font-size:33px;
+#particles-js {
+  height: 550px;
+  /* background: #0f0b0b; */
+  backface-visibility: opacity;
+}
 
+.developer_anim span {
+  color: white;
+  font-size: 76px;
+  height: 100%;
+  position: absolute;
+  /* top: 0; */
+  text-align: center;
+  margin-top: 8%;
+  margin-left: 22%;
+  align-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.face_content {
+  background: #0f0b0b url(images/Stand-back.jpg) !important;
+  opacity: 29;
 }
