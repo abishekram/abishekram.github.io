@@ -1,3 +1,9 @@
+body{
+  background: #222438;
+  font-family: Georgia, Times New Roman, Times, serif;
+  font-weight: bold;
+  font-size: 30px;
+}
 #my-info {
   background: #FABE58;
   /* fallback for old browsers */
@@ -14,8 +20,9 @@
 }
 
 span.developer_role {
-  margin-top: 14% !important;
+  margin-top: 12% !important;
   font-weight: 100;
+  margin-left:  20%;
   margin-left: 33% !important;
 }
 
@@ -34,18 +41,17 @@ span.developer_role {
 
 .developer_anim span {
   color: white;
-  font-size: 76px;
+  font-size: 68px;
   height: 100%;
   position: absolute;
   /* top: 0; */
-  text-align: center;
-  margin-top: 8%;
+  /* text-align: center; */
+  margin-top: 6%;
   margin-left: 22%;
   align-content: center;
   font-family: 'Montserrat', sans-serif;
 }
 
 .face_content {
-  background: #0f0b0b url(images/Stand-back.jpg) !important;
-  opacity: 29;
+
 }
