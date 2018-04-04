@@ -4,11 +4,7 @@ body{
   font-weight: bold;
   font-size: 30px;
 }
-#my-info {
-  background: #FABE58;
-  /* fallback for old browsers */
-  height: 100%;
-}
+
 
 #developer_name h5 {
   font-family: 'Alegreya SC', serif;
@@ -33,25 +29,31 @@ span.developer_role {
   margin-left: 10px;
 }
 
-#particles-js {
-  height: 550px;
-  /* background: #0f0b0b; */
-  backface-visibility: opacity;
+.developer_anim{
+  color: white;
+  /* margin-top: 4%; */
+  background:  #222438;
+  width:  100%;
 }
 
 .developer_anim span {
   color: white;
   font-size: 68px;
+  font-weight:100;
   height: 100%;
-  position: absolute;
-  /* top: 0; */
-  /* text-align: center; */
-  margin-top: 6%;
-  margin-left: 22%;
-  align-content: center;
   font-family: 'Montserrat', sans-serif;
 }
 
-.face_content {
+.factorial  {
+    height: 300px;
+    margin-top: 4%;
+}
 
+.experience_tag.factorial {
+    /* background: white; */
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+    color:  w;
+    /* margin-top: -1%; */
 }
