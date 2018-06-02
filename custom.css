@@ -85,6 +85,11 @@ span.developer_role {
   background-color: black;
   color: white;
   border-bottom: 0;
+  display: block;
+}
+
+.skill_tag{
+  padding: 30px;
 }
 
 .pricing-table .price {
